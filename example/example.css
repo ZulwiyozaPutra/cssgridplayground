@@ -56,3 +56,18 @@ html, body  {
     align-items: center;
     font-size: 20px;
 }
+
+@media screen and (max-width: 720px) {
+    .header {
+        grid-column: span 6;
+    }
+
+    .menu {
+        grid-row: 1;
+        grid-column: span 6;
+    }
+
+    .content {
+        grid-column: span 12;
+    }
+}
